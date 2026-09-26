@@ -30,9 +30,9 @@ Station-side HERMES/Mercury integration belongs in `OceanMail/oceanmail-station`
 
 The architectural SMTP/MX authority is settled; exact production provider, host count, geographic placement, IP allocation, reputation operations, and scale-out/HA design remain implementation/deployment decisions.
 
-## Legacy prototype
+## Implementation baseline
 
-The previous implementation is preserved in `OceanMail/oceanmail-server-0.1-prototype`. Useful authentication, queue, persistence, and security work may be deliberately ported after review; the active 0.2 Server does not inherit that repository's architecture automatically.
+Server implementation must follow current 0.2 contracts. Reused authentication, queue, persistence and security patterns require review and revalidation.
 
 ## Immediate milestone
 
@@ -42,9 +42,9 @@ Public-mail implementation must eventually cover durable SMTP/MX ingress/egress,
 
 Security, licensing, provider, and deployment decisions must remain explicit before production/public release.
 
-## Publication preparation
+## Public source status
 
-This is an experimental bootstrap, not a production-ready implementation. See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), and [Project #42](https://github.com/OceanMail/oceanmail-project-archive/issues/42). The approved source/documentation licenses are installed. See [LICENSING.md](LICENSING.md) and [PUBLICATION.md](PUBLICATION.md). Additional inbound contribution terms remain unadopted; administrator settings and fresh hosted checks require verification.
+This is an experimental bootstrap, not a production-ready implementation. See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md). The approved source/documentation licenses are installed. See [LICENSING.md](LICENSING.md) and [PUBLICATION.md](PUBLICATION.md). No additional inbound agreement is adopted. The public main branch is protected and hosted checks validate proposed changes; external-fork acceptance remains unverified.
 
 ## Licenses
 

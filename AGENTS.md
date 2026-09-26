@@ -35,7 +35,7 @@ Do not independently redefine organization-level identity semantics, OMail deliv
 
 ## Historical code
 
-`OceanMail/oceanmail-server-0.1-prototype` is historical evidence, not current authority. Reuse useful authentication, queue, security, or persistence work only after deliberate review against current 0.2 architecture. Do not inherit BEMPIC/M4P assumptions or merge historical carry-forward work conceptually without porting/revalidation.
+The earlier 0.1 design is historical evidence, not current authority. Reuse useful authentication, queue, security, or persistence work only after deliberate review against current 0.2 architecture. Do not inherit BEMPIC/M4P assumptions or merge historical carry-forward work conceptually without porting/revalidation.
 
 ## Security and evidence
 
