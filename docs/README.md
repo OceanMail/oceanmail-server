@@ -58,7 +58,7 @@ Do not create empty document classes merely to mirror the project repository.
 
 ## Legacy material
 
-`OceanMail/oceanmail-server-0.1-prototype` is historical source material. Reuse architecture-neutral implementation lessons deliberately and revalidate them against current 0.2 boundaries; do not import old transport assumptions as Server authority.
+The earlier 0.1 design is historical source material. Reuse architecture-neutral implementation lessons deliberately and revalidate them against current 0.2 boundaries; do not import old transport assumptions as Server authority.
 
 ## Shared-data urgency contract
 
